@@ -15,23 +15,23 @@
 	<form class="row g-3 m-3 needs-validation" novalidate>
 		<div class="col-md-4">
 		  <label for="first-name-input" class="form-label">First Name</label>
-		  <input type="text" class="form-control" id="first-name-input"  required>
+		  <input type="text" class="form-control invalid-feedback" id="first-name-input"  required>
 		  <div class="valid-feedback">
 		First name required!
 		  </div>
 		</div>
 		<div class="col-md-4">
 		  <label for="last-name-input" class="form-label">Last Name</label>
-		  <input type="text" class="form-control" id="last-name-input"  required>
+		  <input type="text" class="form-control invalid-feedback" id="last-name-input"  required>
 		  <div class="valid-feedback">
 			Last name required!
 		  </div>
 		</div>
 		<div class="col-md-4">
-		  <label for="email-input" class="form-label">Email Address</label>
+		  <label for="email-input" class="form-label invalid-feedback">Email Address</label>
 		  <div class="input-group has-validation">
 			
-			<input type="email" placeholder="xyz@abc.com" class="form-control" id="email-input" aria-describedby="inputGroupPrepend" required>
+			<input type="email" placeholder="xyz@abc.com" class="form-control invalid-feedback" id="email-input" aria-describedby="inputGroupPrepend" required>
 			<div class="invalid-feedback">
 				Email name required!
 			</div>
@@ -39,13 +39,13 @@
 		</div>
 		<div class="col-md-6">
 		  <label for="college-input" class="form-label">College</label>
-		  <input type="text" class="form-control" id="college-input" required>
+		  <input type="text" class="form-control invalid-feedback" id="college-input" required>
 		  <div class="invalid-feedback">
 			Please provide a valid college.
 		  </div>
 		</div>
 		<div class="col-md-3">
-		  <label for="grad-year-select" class="form-label">Graduation Year</label>
+		  <label for="grad-year-select invalid-feedback" class="form-label">Graduation Year</label>
 		  <select class="form-select" id="grad-year-select" required>
 			<option selected disabled value="">Choose...</option>
 			<option>2020</option>
@@ -59,14 +59,14 @@
 		</div>
 		<div class="col-md-3">
 		  <label for="roll-no-input" class="form-label">Roll No.</label>
-		  <input type="text" class="form-control" id="roll-no-input" required>
+		  <input type="text" class="form-control invalid-feedback" id="roll-no-input" required>
 		  <div class="invalid-feedback">
 			Please provide a valid Roll no.
 		  </div>
 		</div>
 		<div class="col-12">
 		  <div class="form-check">
-			<input class="form-check-input" type="checkbox" value="" id="conditions-checkbox" required>
+			<input class="form-check-input invalid-feedback" type="checkbox" value="" id="conditions-checkbox" required>
 			<label class="form-check-label" for="conditions-checkbox">
 			  Agree to terms and conditions
 			</label>
